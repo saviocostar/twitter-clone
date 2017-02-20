@@ -13,8 +13,6 @@
 
 	$id_usuario = $_SESSION['id_usuario'];
 
-//comentário teste GIT
-	
 	// -- qtde de tweets
 	$sql = " SELECT COUNT(*) as qtde_tweets FROM tweet WHERE id_usuario = $id_usuario ";
 	$resultado_id = mysqli_query($link, $sql);
